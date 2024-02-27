@@ -1,0 +1,29 @@
+﻿@model MyStore.ViewModels.CheckOutViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+
+    <div>
+        <h2>Order Details</h2>
+        <ul>
+            <li>User Name: @Model.UserId</li>
+            <li>Product ID: @Model.ProductId</li>
+            <li>Brand ID: @Model.BrandId</li>
+            <li>Category ID: @Model.CategoryId</li>
+            <li>Quantity: @Model.Quantity</li>
+            <li>Price: @Model.Price</li>
+            <li>Order Date: @Model.OrderDate</li>
+        </ul>
+
+        <form method="post" action="/Checkout/AddToCart">
+            <input type="hidden" name="productId" value="@Model.ProductId" />
+            <button type="submit">Confirm Order</button>
+        </form>
+    </div>
+</body>
+</html>

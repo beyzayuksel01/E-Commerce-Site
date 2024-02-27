@@ -1,0 +1,41 @@
+﻿@model MyStore.Models.AppUser
+
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <img src="/img/User1.jpg" class="card-img-top" alt="User Image">
+            <div class="card-body">
+                <h5 class="card-title">@Model.FullName</h5>
+                <p class="card-text">UserName: @Model.UserName</p>
+                <p class="card-text">Email: @Model.Email</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <h2>Comments Made</h2>
+        @if (Model.Comments != null && Model.Comments.Any())
+        {
+            <ul class="list-group">
+                @foreach (var comment in Model.Comments)
+                {
+                    <li class="list-group-item">
+                        <p>@comment.Text</p>
+                        <p class="text-muted">Product: @(comment.Product != null ? comment.Product.Name : "Unknown")</p>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>The user has not commented yet.</p>
+        }
+
+    </div>
+</div>

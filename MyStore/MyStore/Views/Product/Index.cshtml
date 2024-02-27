@@ -1,0 +1,101 @@
+﻿@model IEnumerable<MyStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h1>Product List</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Add New Product</a>
+</p>
+
+@if (Model != null && Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped mt-3">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Category</th>
+                    <th>Brand</th>
+                    <th style="width: 200px;">Actions</th> 
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            @(item?.Category?.CategoryName != null ? item.Category.CategoryName : "No Category")
+                        </td>
+                        <td>
+                            @(item?.Brand?.BrandName != null ? item.Brand.BrandName : "No Brand")
+                        </td>
+                        <td>
+                            @* <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-sm btn-primary">Details</a> *@
+                            <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-sm btn-primary">Edit</a>
+                            <form asp-action="Delete" method="post" onsubmit="return confirm('Are you sure?')" style="display: inline-block;">
+                                <input type="hidden" name="id" value="@item.ProductId">
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No Product</p>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

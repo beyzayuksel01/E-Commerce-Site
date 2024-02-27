@@ -1,0 +1,36 @@
+﻿@model List<Product>
+
+@foreach (var product in Model)
+{
+    <div>
+        <h4>@product.Name</h4>
+        @if (product.Brand != null)
+        {
+            <p>Brand: @product.Brand.BrandName</p>
+        }
+        else
+        {
+            <p>Brand: Unknown Brand</p>
+        }
+
+        @if (product.Category != null)
+        {
+            <p>Category: @product.Category.CategoryName</p>
+        }
+        else
+        {
+            <p>Category: Unknown Category</p>
+        }
+
+        <p>Price: @product.Price</p>
+        <p>Quantity: @product.Quantity</p>
+
+        <h5>Comments:</h5>
+        <ul>
+            @foreach (var comment in product.Comments)
+            {
+                <li>@comment.Text</li>
+            }
+        </ul>
+    </div>
+}

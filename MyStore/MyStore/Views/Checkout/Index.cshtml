@@ -1,0 +1,94 @@
+﻿@model List<CheckOutViewModel>
+
+<h2>Orders</h2>
+
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Brand</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.BrandName</td>
+                    <td>@item.CategoryName</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No orders found.</p>
+}
+
+
+<form id="checkout-form">
+    <div class="form-group">
+        <label for="full-name">Full Name:</label>
+        <input type="text" class="form-control" id="full-name" name="full-name">
+    </div>
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" class="form-control" id="address" name="address">
+    </div>
+    <div class="form-group">
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" class="form-control" id="phone-number" name="phone-number">
+    </div>
+    <div class="form-group">
+        <div class="form-group">
+            <label for="credit-card">Credit Card Number:</label>
+            <input type="text" class="form-control" id="credit-card" name="credit-card">
+        </div>
+        <div class="form-group">
+            <label for="expiration-date">Expiration Date:</label>
+            <input type="text" class="form-control" id="expiration-date" name="expiration-date" placeholder="MM/YY">
+        </div>
+        <div class="form-group">
+            <label for="cvv">CVV:</label>
+            <input type="text" class="form-control" id="cvv" name="cvv">
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" id="place-order-btn">Sipariş Ver</button>
+</form>
+
+
+<div id="order-confirmation" style="display: none; margin-top: 20px;">
+    <p>Siparişiniz onaylandı!</p>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#place-order-btn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Checkout/PlaceOrder',
+                    data: {
+                        cartNumber: $('#cart-number').val()
+                    },
+                    success: function (response) {
+                        $('#order-confirmation').show();
+                    },
+                    error: function () {
+                        alert('Sipariş verme sırasında bir hata oluştu.');
+                    }
+                });
+            });
+        });
+    </script>
+}
+

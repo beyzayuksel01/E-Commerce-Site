@@ -1,0 +1,665 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\02jcicg1.afb_keyboard.jfif",
+      "PackagePath": "staticwebassets\\img\\02jcicg1.afb_keyboard.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\0bqsbn3e.jeu_nightlight.jfif",
+      "PackagePath": "staticwebassets\\img\\0bqsbn3e.jeu_nightlight.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\0g5uthrq.tdy_samsung-galaxy-tab-s8-serisi-ama.jpg",
+      "PackagePath": "staticwebassets\\img\\0g5uthrq.tdy_samsung-galaxy-tab-s8-serisi-ama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\0t2sesx1.ues_hotwheels_car.jfif",
+      "PackagePath": "staticwebassets\\img\\0t2sesx1.ues_hotwheels_car.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\15ux414u.vtm_the-purest-solutions-tum-urunler (1).jpg",
+      "PackagePath": "staticwebassets\\img\\15ux414u.vtm_the-purest-solutions-tum-urunler (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\1qrqd3hs.gkz_cerv.jpg",
+      "PackagePath": "staticwebassets\\img\\1qrqd3hs.gkz_cerv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\30puvdx1.0yr_maybelline-lifter-lip-gloss.jpg",
+      "PackagePath": "staticwebassets\\img\\30puvdx1.0yr_maybelline-lifter-lip-gloss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\3ldn5zsu.45b_0032883_riena-dogtas5852-1.jpg",
+      "PackagePath": "staticwebassets\\img\\3ldn5zsu.45b_0032883_riena-dogtas5852-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\5jfpvbhn.p15_80bb5edc-8f75-4f12-a5de-25161269.jpg",
+      "PackagePath": "staticwebassets\\img\\5jfpvbhn.p15_80bb5edc-8f75-4f12-a5de-25161269.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\5jfyzq1z.f3c_BEIE_4005900111531-1-1.jpg",
+      "PackagePath": "staticwebassets\\img\\5jfyzq1z.f3c_BEIE_4005900111531-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\User1.jpg",
+      "PackagePath": "staticwebassets\\img\\User1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\bywkhfqp.bsy_hhh.jpg",
+      "PackagePath": "staticwebassets\\img\\bywkhfqp.bsy_hhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\cc4hi4fl.kij_A-Series-Hub-KV_MO.jpg",
+      "PackagePath": "staticwebassets\\img\\cc4hi4fl.kij_A-Series-Hub-KV_MO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\ci0wxmii.cyv_iron.jpg",
+      "PackagePath": "staticwebassets\\img\\ci0wxmii.cyv_iron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\e0k5qqcw.xsm_17024680_website_HC_T14_BGS41POW.jpg",
+      "PackagePath": "staticwebassets\\img\\e0k5qqcw.xsm_17024680_website_HC_T14_BGS41POW.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\fljnyeir.xpy_bed.jfif",
+      "PackagePath": "staticwebassets\\img\\fljnyeir.xpy_bed.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\foqimsxi.nc5_71wvFw-r1JL._AC_UF350,350_QL80_.jpg",
+      "PackagePath": "staticwebassets\\img\\foqimsxi.nc5_71wvFw-r1JL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\fqltr2z3.civ_hasbro-play-doh-oyun-hamuru-sihi.jpg",
+      "PackagePath": "staticwebassets\\img\\fqltr2z3.civ_hasbro-play-doh-oyun-hamuru-sihi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\fwduomac.abe_1703839541_youloveit_com_always_.jpg",
+      "PackagePath": "staticwebassets\\img\\fwduomac.abe_1703839541_youloveit_com_always_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\gtggm03t.435_nightstand.jfif",
+      "PackagePath": "staticwebassets\\img\\gtggm03t.435_nightstand.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\htua5r4h.x3y_kens.jfif",
+      "PackagePath": "staticwebassets\\img\\htua5r4h.x3y_kens.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\hwdpydt3.tmg_closet.jfif",
+      "PackagePath": "staticwebassets\\img\\hwdpydt3.tmg_closet.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\i0o2b40f.kgj_thinkpad-l15-gen-3-intel-baner-7.jpg",
+      "PackagePath": "staticwebassets\\img\\i0o2b40f.kgj_thinkpad-l15-gen-3-intel-baner-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\icsnt4us.vii_mutfak-dolaplari-780x470.jpg",
+      "PackagePath": "staticwebassets\\img\\icsnt4us.vii_mutfak-dolaplari-780x470.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\image1.png",
+      "PackagePath": "staticwebassets\\img\\image1.png"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\image2.png",
+      "PackagePath": "staticwebassets\\img\\image2.png"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\image3.jpg",
+      "PackagePath": "staticwebassets\\img\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\image4.jpg",
+      "PackagePath": "staticwebassets\\img\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\isvgab0h.zff_refrigerator.jfif",
+      "PackagePath": "staticwebassets\\img\\isvgab0h.zff_refrigerator.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\jauwz2hp.scy_makyajfır.jpg",
+      "PackagePath": "staticwebassets\\img\\jauwz2hp.scy_makyajfır.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\jneuv0v5.ppw_tv-unit.jpg",
+      "PackagePath": "staticwebassets\\img\\jneuv0v5.ppw_tv-unit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\jnynyiew.day_sofa_set.jpg",
+      "PackagePath": "staticwebassets\\img\\jnynyiew.day_sofa_set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\k0undxry.s12_mouses (1).webp",
+      "PackagePath": "staticwebassets\\img\\k0undxry.s12_mouses (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\kt4x5zj5.s14_trina-bronz-38-mm.jpg",
+      "PackagePath": "staticwebassets\\img\\kt4x5zj5.s14_trina-bronz-38-mm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\lj3ewbqi.zpz_605e-Blue-Copper-Gallery-1.jpg",
+      "PackagePath": "staticwebassets\\img\\lj3ewbqi.zpz_605e-Blue-Copper-Gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\m1ofg5xc.u5j_1920x1080-arcelik6166-i-bulasik-.jpg",
+      "PackagePath": "staticwebassets\\img\\m1ofg5xc.u5j_1920x1080-arcelik6166-i-bulasik-.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\mwaybwc0.1a4_1920x1080-beko-kurutmali-camasir.jpg",
+      "PackagePath": "staticwebassets\\img\\mwaybwc0.1a4_1920x1080-beko-kurutmali-camasir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\n5w2f14n.pi1_lego-creator-expert-10293-santa-.jpg",
+      "PackagePath": "staticwebassets\\img\\n5w2f14n.pi1_lego-creator-expert-10293-santa-.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\qdl2hr3b.0ze_18056079-728xauto.jpg",
+      "PackagePath": "staticwebassets\\img\\qdl2hr3b.0ze_18056079-728xauto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\qjq3rloc.wsn_barbiee.jfif",
+      "PackagePath": "staticwebassets\\img\\qjq3rloc.wsn_barbiee.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\qqkaxv0j.owg_tr-qled-q80c-qe75q80catxtk-53572.jpg",
+      "PackagePath": "staticwebassets\\img\\qqkaxv0j.owg_tr-qled-q80c-qe75q80catxtk-53572.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\qsbxnjil.x5r_harrypotterdoll.jfif",
+      "PackagePath": "staticwebassets\\img\\qsbxnjil.x5r_harrypotterdoll.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\r1tejll3.wvj_Doll_stockphotography_-_Basic_wa.jpg",
+      "PackagePath": "staticwebassets\\img\\r1tejll3.wvj_Doll_stockphotography_-_Basic_wa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\rgyu45bc.kww_primer.jpg",
+      "PackagePath": "staticwebassets\\img\\rgyu45bc.kww_primer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\seoamhiu.tij_S2972308011153508876-Slayt6_zoom.jpg",
+      "PackagePath": "staticwebassets\\img\\seoamhiu.tij_S2972308011153508876-Slayt6_zoom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\tinh1ao0.cs0_lash_sensational_mascara.jpg",
+      "PackagePath": "staticwebassets\\img\\tinh1ao0.cs0_lash_sensational_mascara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\tpw3cqxg.eit_19099522_Bosch_LaundryCare_Washi.jpg",
+      "PackagePath": "staticwebassets\\img\\tpw3cqxg.eit_19099522_Bosch_LaundryCare_Washi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\ukdiijoq.ydb_kids-bedroom-design-in-modern-ec.jpg",
+      "PackagePath": "staticwebassets\\img\\ukdiijoq.ydb_kids-bedroom-design-in-modern-ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\uncfu5uu.nrr_m_karaca-hatir-plus-mod-5-in-1-9.jpg",
+      "PackagePath": "staticwebassets\\img\\uncfu5uu.nrr_m_karaca-hatir-plus-mod-5-in-1-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\vcczrvmr.kru_f1597f30f65dfceac485137790cf0a1d.jpg",
+      "PackagePath": "staticwebassets\\img\\vcczrvmr.kru_f1597f30f65dfceac485137790cf0a1d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\wmzy2fcr.pv5_television.jfif",
+      "PackagePath": "staticwebassets\\img\\wmzy2fcr.pv5_television.jfif"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\xmwwqq4i.mmg_360_F_324422176_Lgn7NTeFyNaUKIDu.jpg",
+      "PackagePath": "staticwebassets\\img\\xmwwqq4i.mmg_360_F_324422176_Lgn7NTeFyNaUKIDu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\xoekskgr.fme_Burberry-perfumes_hero.webp",
+      "PackagePath": "staticwebassets\\img\\xoekskgr.fme_Burberry-perfumes_hero.webp"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\zh41wagz.o3r_karaca-alaz-8-parca-celik-seti.jpg",
+      "PackagePath": "staticwebassets\\img\\zh41wagz.o3r_karaca-alaz-8-parca-celik-seti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\zizzstx0.muj_misis-yemek-masasi-takimi-1.jpg",
+      "PackagePath": "staticwebassets\\img\\zizzstx0.muj_misis-yemek-masasi-takimi-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\img\\zlg0cn2q.mqf_64215a724e3fe0192864c925.jpg",
+      "PackagePath": "staticwebassets\\img\\zlg0cn2q.mqf_64215a724e3fe0192864c925.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyza\\source\\repos\\Bootchamp\\MyStore\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyStore.props",
+      "PackagePath": "build\\MyStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyStore.props",
+      "PackagePath": "buildMultiTargeting\\MyStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyStore.props",
+      "PackagePath": "buildTransitive\\MyStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

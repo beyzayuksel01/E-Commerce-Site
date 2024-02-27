@@ -1,0 +1,83 @@
+﻿@model IEnumerable<MyStore.Models.Brand>
+
+<h1>Brands</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New Brand</a>
+</p>
+
+@if (Model != null && Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-bordered mt-3">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Brand ID</th>
+                    <th>Brand Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.BrandId</td>
+                        <td>@item.BrandName</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.BrandId" class="btn btn-primary btn-sm">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.BrandId" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No Brand</p>
+}
+
+
+
+
+
+
+
+
+
+
+
+@* @model IEnumerable<MyStore.Models.Brand>
+
+<h1>Brands</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New Brand</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BrandName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BrandId" class="btn btn-primary btn-sm">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.BrandId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@

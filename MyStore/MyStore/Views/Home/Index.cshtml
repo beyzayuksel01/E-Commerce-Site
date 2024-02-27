@@ -1,0 +1,273 @@
+﻿@using MyStore.ViewModels
+@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid">
+    <div class="jumbotron text-center" style="background-color:#483D8B; color: #000000; ">
+        <h1 class="display-4">Welcome to MyStore!</h1>
+        <p class="lead">Discover amazing products and enjoy great shopping experience.</p>
+        <hr class="my-4" style="margin-left: 25%; margin-right: 25%;">
+    </div>
+</div>
+
+
+    <!-- Categories DDA0DD -->
+    <div class="row mt-5">
+        @foreach (var category in Model.Categories)
+        {
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action category-link" data-category-id="@category.CategoryId" style="background-color:#483D8B; color: #ffffff; ">@category.CategoryName</a>
+                </div>
+            </div>
+            <div class="col-md-9 category-products" id="products-@category.CategoryId">
+                @if (category.Products.Any())
+                {
+                    <div class="row">
+                        @foreach (var product in category.Products)
+                        {
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm">
+                                    @if (product.Pictures != null && product.Pictures.Any())
+                                    {
+                                        <img src="/@product.Pictures.First().Path" class="img-fluid" alt="">
+                                    }
+                                    else
+                                    {
+                                        <p>No Image</p>
+                                    }
+
+                                    <div class="card-body" style="background-color:#7B68EE; color: #000000;  padding: 0.75rem 1.25rem 1.5rem; margin-top: 0.25rem; margin-bottom: 0.25rem;">
+                                        <h5 class="card-title mb-0">@product.Name</h5>
+                                        <p class="card-text mb-1">@product.Price.ToString("C") </p>
+                                        <p class="card-text mb-1">@Html.Raw(product.Brand != null ? product.Brand.BrandName : "Unknown Brand") - @Html.Raw(product.Category != null ? product.Category.CategoryName : "Unknown Category")</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <form action="/Checkout/AddToCart" method="post" class="add-to-cart-form">
+                                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                                <div class="btn-group">
+                                                    <button type="submit" class="btn btn-sm btn-dark font-weight-bold">Add to Cart</button>
+                                                    <input type="number" name="quantity" value="1" class="form-control form-control-sm" style="width: 50px;" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No products available in this category.</p>
+                }
+            </div>
+        }
+    </div>
+
+    @section Scripts
+    {
+        <script>
+            var categoryLinks = document.querySelectorAll('.category-link');
+
+            categoryLinks.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    var categoryId = this.getAttribute('data-category-id');
+                    var productsDiv = document.getElementById('products-' + categoryId);
+                    var categoryProducts = document.querySelectorAll('.category-products');
+
+                    categoryProducts.forEach(function (element) {
+                        if (element !== productsDiv) {
+                            element.style.display = 'none';
+                        }
+                    });
+
+                    if (productsDiv.style.display === 'none') {
+                        productsDiv.style.display = 'block';
+                    } else {
+                        productsDiv.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+    }
+
+
+    <!-- End Categories  #9400D3 -->
+    <!-- Products -->
+
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h2>Products</h2>
+        </div>
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card mb-4 shadow-sm">
+                    @if (product.Pictures != null && product.Pictures.Any())
+                    {
+                        <img src="/@product.Pictures.First().Path" class="img-fluid" alt="">
+                    }
+                    else
+                    {
+                        <p>No Image</p>
+                    }
+                    <div class="card-body" style="background-color:#7B68EE; color: #000000;  padding: 0.75rem 1.25rem 1.5rem;margin-top: 0.5rem; margin-bottom: 0.5rem;">
+                        <h6 class="card-title">@product.Name</h6>
+                        <p class="card-text">@product.Price.ToString("C") </p>
+                        <p class="card-text">@Html.Raw(product.Brand != null ? product.Brand.BrandName : "Unknown Brand") - @Html.Raw(product.Category != null ? product.Category.CategoryName : "Unknown Category")</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <form action="/Checkout/AddToCart" method="post">
+                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                <div class="btn-group">
+                                    <button type="submit" class="btn btn-sm btn-dark font-weight-bold">Add to Cart</button>
+                                    <input type="number" name="quantity" value="1" class="form-control form-control-sm" style="width: 50px;" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+
+    <script>
+        $('form').submit(function (event) {
+            event.preventDefault();
+            var productId = $(this).find('input[name="productId"]').val();
+            var quantity = $(this).find('input[name="quantity"]').val();
+
+            $.ajax({
+                type: 'POST',
+                url: '/Checkout/AddToCart',
+                data: { productId: productId, quantity: quantity },
+                dataType: 'json',
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                    } else {
+                        alert('Ürün sepete eklenirken bir hata oluştu.');
+                    }
+                },
+                error: function () {
+                    alert('İstek işlenirken bir hata oluştu.');
+                }
+            });
+        });
+    </script>
+
+
+
+    <!-- End Products -->
+    <!-- Comments -->
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <h3>Add Comment</h3>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Comment" asp-action="Add" method="post">
+                    <div class="form-group">
+                        <label for="productId">Product:</label>
+                        <select class="form-control" id="productId" name="productId">
+                            <option value="">-- Select Product --</option>
+                            @foreach (var product in Model.Products)
+                            {
+                                <option value="@product.ProductId">@product.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="commentText">Comment:</label>
+                        <textarea class="form-control" id="commentText" name="text" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Comment</button>
+                </form>
+            }
+            else
+            {
+                <p><a href="/Account/Login">Login</a> to add a comment.</p>
+            }
+        </div>
+
+        <div class="col-md-8">
+            <h2>Comments</h2>
+            @if (User.Identity.IsAuthenticated)
+            {
+                @if (Model.Comments.Any())
+                {
+                    <div class="list-group">
+                        @foreach (var comment in Model.Comments.OrderByDescending(c => c.PublishedOn).Take(3))
+                        {
+                            <div class="list-group-item">
+                                <h5 class="mb-1">User: @(comment.UserId != null ? comment.UserId : "Unknown")</h5>
+                                <h6 class="mb-1">Product: @(comment.Product != null ? comment.Product.Name : "Unknown")</h6>
+                                <p class="mb-1">Brand: @(comment.Product?.Brand != null ? comment.Product.Brand.BrandName : "Unknown")</p>
+                                <p class="mb-1">Category: @(comment.Product?.Category != null ? comment.Product.Category.CategoryName : "Unknown")</p>
+                                <p class="mb-1">Text: @comment.Text</p>
+                                <small>@comment.PublishedOn.ToString("dd/MM/yyyy HH:mm")</small>
+
+                                <!-- Admin için yanıt ekleme formu -->
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <form asp-controller="Comment" asp-action="AddReply" method="post">
+                                        <input type="hidden" name="productId" value="@comment.ProductId" />
+                                        <input type="hidden" name="commentId" value="@comment.CommentId" />
+                                        <div class="form-group">
+                                            <label for="textReply">Reply:</label>
+                                            <textarea class="form-control" id="textReply" name="textReply" rows="3"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary reply-btn">Reply</button>
+                                    </form>
+                                    <form asp-controller="Comment" asp-action="Delete" method="post">
+                                        <input type="hidden" name="commentId" value="@comment.CommentId" />
+                                        <button type="submit" class="btn btn-sm btn-danger delete-btn">Delete</button>
+                                    </form>
+                                }
+                            </div>
+                        }
+                    </div>
+                    @if (Model.Comments.Count() > 3)
+                    {
+                        <button id="showAllCommentsBtn" class="btn btn-primary mt-3">Show All Comments</button>
+                    }
+                }
+                else
+                {
+                    <p>No comments yet.</p>
+                }
+            }
+            else
+            {
+                <p>You must be logged in to view comments.</p>
+            }
+        </div>
+
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.reply-btn').click(function () {
+                    
+                });
+
+                $('.delete-btn').click(function () {
+                    
+                });
+
+                $('#showAllCommentsBtn').click(function () {
+                    $('.list-group-item:hidden').show();
+                    $('#showAllCommentsBtn').hide();
+                });
+            });
+        </script>
+
+
+
+
+
+    <!-- End Comments -->
+</div>

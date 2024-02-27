@@ -1,0 +1,28 @@
+﻿@model MyStore.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h1>@Model.Name</h1>
+    <p>Brand: @(Model?.Brand?.BrandName != null ? Model.Brand.BrandName : "No Brand")</p>
+    <p>CategoryId: @(Model?.Category?.CategoryName != null ? Model.Category.CategoryName : "No Brand")</p>
+    <p>Price: @Model.Price</p>
+    <p>Quantity: @Model.Quantity</p>
+    <hr />
+
+    <h4>Comments</h4>
+    <ul>
+        @foreach (var comment in Model.Comments)
+        {
+            <li>@comment.Text</li>
+        }
+    </ul>
+
+    <hr />
+    <p>
+        <a asp-action="Details" asp-route-id="@Model.ProductId">Details</a> |
+        <a asp-action="Index">Back to List</a>
+    </p>
+</div>
