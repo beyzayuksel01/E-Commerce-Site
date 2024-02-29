@@ -16,16 +16,14 @@ namespace MyStore.Controllers
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IBrandRepository _brandRepository;
-        private readonly IOrderRepository _orderRepository;
         private readonly ICommentRepository _commentRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductController(IProductRepository productRepository , ICategoryRepository categoryRepository, IBrandRepository brandRepository, IOrderRepository orderRepository, ICommentRepository commentRepository , IWebHostEnvironment webHostEnvironment)
+        public ProductController(IProductRepository productRepository , ICategoryRepository categoryRepository, IBrandRepository brandRepository, ICommentRepository commentRepository , IWebHostEnvironment webHostEnvironment)
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
             _brandRepository = brandRepository;
-            _orderRepository = orderRepository;
             _commentRepository = commentRepository;
             _webHostEnvironment = webHostEnvironment;
         }

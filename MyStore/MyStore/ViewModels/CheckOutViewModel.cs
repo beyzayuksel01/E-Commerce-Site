@@ -15,7 +15,6 @@ namespace MyStore.ViewModels
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public DateTime OrderDate { get; set; }
-        public List<Order>? Orders { get; set; }
 
         public AppUser? AppUser { get; set; }
         public Product? Product { get; set; }

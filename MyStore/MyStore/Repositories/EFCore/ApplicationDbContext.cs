@@ -15,7 +15,6 @@ namespace MyStore.Repositories.EFCore
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Brand> Brands { get; set; }
-        public DbSet<Order> Orders { get; set; }    
         public DbSet<Tag> Tags => Set<Tag>();
 
     }

@@ -9,7 +9,6 @@ namespace MyStore.ViewModels
         public List<Brand> Brands { get; set; } = new List<Brand>();
         public int ProductIdToAddToCart { get; set; }
         public List<Comment> Comments { get; set; } = new List<Comment>();
-        public List<Order> Orders { get;  set; } = new List<Order>();
         public List<AppUser> Users { get; set; } = new List<AppUser>();
         public List<Picture> Pictures { get; set; } = new List<Picture>();
 

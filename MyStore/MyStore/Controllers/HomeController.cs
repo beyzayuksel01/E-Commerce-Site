@@ -13,11 +13,10 @@ namespace MyStore.Controllers
         private readonly ICategoryRepository _categoryRepository; 
         private readonly ICommentRepository _commentRepository;
         private readonly IBrandRepository _brandRepository;
-        private readonly IOrderRepository _orderRepository;
         private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public HomeController(IProductRepository productRepository, ICategoryRepository categoryRepository, ICommentRepository commentRepository, IHttpContextAccessor httpContextAccessor, IBrandRepository brandRepository, UserManager<AppUser> userManager, IOrderRepository orderRepository)
+        public HomeController(IProductRepository productRepository, ICategoryRepository categoryRepository, ICommentRepository commentRepository, IHttpContextAccessor httpContextAccessor, IBrandRepository brandRepository, UserManager<AppUser> userManager)
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
@@ -25,7 +24,7 @@ namespace MyStore.Controllers
             _httpContextAccessor = httpContextAccessor;
             _brandRepository = brandRepository;
             _userManager = userManager;
-            _orderRepository = orderRepository;
+            
         }
 
         public IActionResult Index()
@@ -36,7 +35,6 @@ namespace MyStore.Controllers
             var brands = _brandRepository.GetAllBrands().ToList();
             var categories = _categoryRepository.GetAllCategories().ToList();
             var comments = _commentRepository.GetAllComments().ToList();
-            var orders = _orderRepository.GetAllOrders().ToList();
             var users = _userManager.Users.ToList();
 
 
@@ -48,31 +46,16 @@ namespace MyStore.Controllers
                 Brands = brands,
                 Categories = categories,
                 Comments = comments,
-                Orders = orders,
                 Users = users
             };
 
             return View(viewModel);
         }
 
-
-
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        //public IActionResult Privacy()
-        //{
-        //    return View();
-        //}
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
 
     }
