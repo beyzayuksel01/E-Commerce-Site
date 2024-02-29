@@ -1,5 +1,7 @@
 Proje Raporu: E-Ticaret Uygulaması
+
 Proje Adı: Mystore
+
 Proje süresi: 2 hafta
 
 1. Projenin özeti
