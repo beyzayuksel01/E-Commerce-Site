@@ -63,4 +63,4 @@ genişletilebilirlik ve özelleştirme imkanlarıyla gelecekteki ihtiyaçlara uy
 hazırdır. Geliştirmeye devam edilecektir, eklenmek istenen şeyler: profilde kullanıcının yaptığı 
 yorumun gözükmesi, kullanıcının verdiği siparişlerin kullanıcının profilinde gözükmesi, adminin 
 yapılan siparişleri görebilmesi. Zaman geçtikçe eklenecek şeyler de oluşur ona göre bu rapor 
-güncellenir
+güncellenir.
