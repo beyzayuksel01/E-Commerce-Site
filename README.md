@@ -1,8 +1,8 @@
-Proje Raporu: E-Ticaret Uygulaması
+#Proje Raporu: E-Ticaret Uygulaması
 
-Proje Adı: Mystore
+##Proje Adı: Mystore
 
-Proje süresi: 2 hafta
+##Proje süresi: 2 hafta
 
 1. Projenin özeti
 Bu proje, bir e-ticaret uygulamasının temel işlevlerini gerçekleştiren bir web uygulamasıdır. Şu an 
@@ -11,36 +11,36 @@ yapabilir, sepetlerine ekleyebilir ve satın alma işlemlerini gerçekleştirebi
 geliştirme sürecini, kullanılan teknolojileri ve elde edilen sonuçları detaylı olarak açıklar.
 
 2. Kullanılan Teknolojiler
-ASP.NET Core MVC Framework: Web uygulamasının geliştirilmesinde kullanılmıştır.
-Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
-Identity Framework: Kullanıcı kimlik doğrulaması ve yetkilendirme için kullanılmıştır.
-HTML, CSS, JavaScript: Frontend geliştirme için kullanılmıştır.
-Razor View Engine: MVC modeline dayalı dinamik web sayfaları oluşturmak için kullanılmıştır.
-Bootstrap: Duyarlı ve kullanıcı dostu bir tasarım oluşturmak için kullanıldı.
++ASP.NET Core MVC Framework: Web uygulamasının geliştirilmesinde kullanılmıştır.
++Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
++Identity Framework: Kullanıcı kimlik doğrulaması ve yetkilendirme için kullanılmıştır.
++HTML, CSS, JavaScript: Frontend geliştirme için kullanılmıştır.
++Razor View Engine: MVC modeline dayalı dinamik web sayfaları oluşturmak için kullanılmıştır.
++Bootstrap: Duyarlı ve kullanıcı dostu bir tasarım oluşturmak için kullanıldı.
 
 3. Temel İşlevler
-• Kullanıcılar, uygulama üzerinde ürünleri listeleyebilir, kategorilere göre filtreleyebilir ve 
++• Kullanıcılar, uygulama üzerinde ürünleri listeleyebilir, kategorilere göre filtreleyebilir ve 
 istedikleri ürüne yorum yapabilirler.
-• Kullanıcılar, ürünleri sepetlerine ekleyebilir, sepetlerini yönetebilir ve satın alma sayfasına 
++• Kullanıcılar, ürünleri sepetlerine ekleyebilir, sepetlerini yönetebilir ve satın alma sayfasına 
 yönlendirilirler fakat satın alma kısmı geliştirme aşamasında.
-• Kullanıcılar, kayıt olabilir, oturum açabilir.
-• Yöneticiler, ürünleri, kategorileri ve markaları yönetebilir, kullanıcıları yönetebilir ve yapılan 
++• Kullanıcılar, kayıt olabilir, oturum açabilir.
++• Yöneticiler, ürünleri, kategorileri ve markaları yönetebilir, kullanıcıları yönetebilir ve yapılan 
 yorumlara cevap verebilir.
 
 4. Uygulama Mimarisi
-Model-View-Controller (MVC) Tasarım Deseni: Uygulama, veri tabanı modeli (Model), kullanıcı 
++Model-View-Controller (MVC) Tasarım Deseni: Uygulama, veri tabanı modeli (Model), kullanıcı 
 arayüzü (View) ve işlemsel mantık (Controller) arasında ayrılmıştır.
-Veritabanı Tasarımı: Ürünler, kullanıcılar, siparişler ve diğer ilişkili bilgileri içeren bir SQL veritabanı 
++Veritabanı Tasarımı: Ürünler, kullanıcılar, siparişler ve diğer ilişkili bilgileri içeren bir SQL veritabanı 
 kullanılmıştır.
-Kimlik ve Yetkilendirme: ASP.NET Identity Framework kullanılarak kullanıcı kimlik doğrulaması ve 
++Kimlik ve Yetkilendirme: ASP.NET Identity Framework kullanılarak kullanıcı kimlik doğrulaması ve 
 yetkilendirme sağlanmıştır.
 
 5. Geliştirme Süreci
-İhtiyaç Analizi: Projenin gereksinimleri belirlenmiş, kullanıcı senaryoları oluşturulmuş ve veri modeli 
++İhtiyaç Analizi: Projenin gereksinimleri belirlenmiş, kullanıcı senaryoları oluşturulmuş ve veri modeli 
 tasarlanmıştır.
-Tasarım ve Geliştirme: MVC mimarisine uygun olarak model, görünüm ve denetleyici sınıfları 
++Tasarım ve Geliştirme: MVC mimarisine uygun olarak model, görünüm ve denetleyici sınıfları 
 geliştirilmiş, kullanıcı arayüzü tasarlanmış ve işlemsel mantık uygulanmıştır.
-Test ve Hata Ayıklama: Uygulama, kullanılabilirlik ve güvenilirlik açısından test edilmiş, performans 
++Test ve Hata Ayıklama: Uygulama, kullanılabilirlik ve güvenilirlik açısından test edilmiş, performans 
 iyileştirmeleri yapılmıştır.
 
 6. Sonuç
