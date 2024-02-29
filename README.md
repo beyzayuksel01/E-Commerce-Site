@@ -4,7 +4,7 @@
 
 ## Proje süresi: 2 hafta
 
-https://github.com/beyzayuksel01/E-Commerce-Site/issues/1#issue-2161594519
+## Screen Shots: https://github.com/beyzayuksel01/E-Commerce-Site/issues/1#issue-2161594519
 
 ## 1. Projenin özeti
 Bu proje, bir e-ticaret uygulamasının temel işlevlerini gerçekleştiren bir web uygulamasıdır. Şu an 
