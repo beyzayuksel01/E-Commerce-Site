@@ -1,5 +1,4 @@
 ﻿using MyStore.Models;
-using MyStore.Models;
 using MyStore.Repositories.Contract;
 using MyStore.Repositories.EFCore;
 

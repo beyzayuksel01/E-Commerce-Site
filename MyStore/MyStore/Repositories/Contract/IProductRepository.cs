@@ -20,7 +20,6 @@ namespace MyStore.Repositories.Contract
         Product GetProductById(int productId);
         bool UpdateProduct(ProductEditViewModel product);
         void DeleteProduct(Product product);
-        //void Save();
         string ProcessAndSaveImage(IFormFile imageFile);
     }
     

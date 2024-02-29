@@ -21,7 +21,6 @@ namespace MyStore.Repositories.EFCore
             var userManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<UserManager<AppUser>>();
             var roleManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<RoleManager<AppRole>>();
 
-            // Ensure Admin role exists
             var adminRole = await roleManager.FindByNameAsync("Admin");
 
             if (adminRole == null)
@@ -43,19 +42,9 @@ namespace MyStore.Repositories.EFCore
 
                 await userManager.CreateAsync(user, adminPassword);
 
-                // Assign the Admin role to the user
                 await userManager.AddToRoleAsync(user, "Admin");
             }
 
-            //if (!context.Products.Any())
-            //{
-            //    context.Products.AddRange(
-            //        new Product { Name = "Monitor", Price = 30000, Quantity = 10, CategoryId = 1, BrandId = 6 , Image = "/img/monitor.jfif" },
-            //        new Product { Name = "Dining Table", Price = 20000, Quantity = 20, CategoryId = 2 , BrandId = 7 , Image = "/img/dining_table.jfif" },
-            //        new Product { Name = "Eyeshadow Palette", Price = 300, Quantity = 30, CategoryId = 3 , BrandId = 8 , Image = "/img/eyeshadow_palette.jfif" }
-            //    );
-            //    context.SaveChanges();
-            //}
 
         }
     }

@@ -210,8 +210,7 @@
                                 <p class="mb-1">Category: @(comment.Product?.Category != null ? comment.Product.Category.CategoryName : "Unknown")</p>
                                 <p class="mb-1">Text: @comment.Text</p>
                                 <small>@comment.PublishedOn.ToString("dd/MM/yyyy HH:mm")</small>
-
-                                <!-- Admin için yanıt ekleme formu -->
+                        
                                 @if (User.IsInRole("Admin"))
                                 {
                                     <form asp-controller="Comment" asp-action="AddReply" method="post">

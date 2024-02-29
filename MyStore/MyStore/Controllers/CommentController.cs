@@ -133,8 +133,6 @@ namespace MyStore.Controllers
                 return NotFound();
             }
 
-            //var CommentId = commentId;
-
             var comment = _commentRepository.GetCommentById(commentId);
             if (comment == null)
             {

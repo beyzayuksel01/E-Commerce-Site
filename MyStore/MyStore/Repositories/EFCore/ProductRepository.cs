@@ -71,13 +71,8 @@ namespace MyStore.Repositories.EFCore.Config
 
 
 
-
-
-
-
                 foreach (var picture in existingProduct.Pictures.ToList())
                 {
-                    // ... delete file from disk
                     if (_webHostEnvironment != null)
                     {
                         string filePath = Path.Combine(_webHostEnvironment.WebRootPath, picture.Path);
@@ -90,11 +85,6 @@ namespace MyStore.Repositories.EFCore.Config
 
                     existingProduct.Pictures.Remove(picture);
                 }
-
-
-
-
-
 
 
                 foreach (var pictureFile in updatedProduct.NewPictures)
@@ -128,10 +118,6 @@ namespace MyStore.Repositories.EFCore.Config
         {
             _context.SaveChanges();
         }
-
-
-        
-
 
 
 
