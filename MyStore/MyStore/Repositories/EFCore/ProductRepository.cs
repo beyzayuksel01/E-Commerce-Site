@@ -35,9 +35,9 @@ namespace MyStore.Repositories.EFCore.Config
         public IQueryable<Category> Categories => _context.Categories;
         public IQueryable<Brand> Brands => _context.Brands;
 
-        public IEnumerable<Product> GetAllProducts()
+        public IQueryable<Product> GetAllProducts()
         {
-            return _context.Products.Include(p => p.Pictures).ToList();
+            return _context.Products.Include(p => p.Pictures);
         }
 
         public Product GetProductById(int id)
@@ -68,6 +68,7 @@ namespace MyStore.Repositories.EFCore.Config
                 existingProduct.Quantity = updatedProduct.Quantity;
                 existingProduct.CategoryId = updatedProduct.CategoryId;
                 existingProduct.BrandId = updatedProduct.BrandId;
+                existingProduct.IsActive = updatedProduct.IsActive;
 
 
 
@@ -103,7 +104,8 @@ namespace MyStore.Repositories.EFCore.Config
 
         public void DeleteProduct(Product product)
         {
-            _context.Products.Remove(product);
+            //_context.Products.Remove(product);
+            product.IsActive = false;
             _context.SaveChanges();
         }
 

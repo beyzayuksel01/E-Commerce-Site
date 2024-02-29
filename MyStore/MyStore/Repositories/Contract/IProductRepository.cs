@@ -7,7 +7,7 @@ namespace MyStore.Repositories.Contract
     
     public interface IProductRepository 
     {
-        IEnumerable<Product> GetAllProducts();
+        IQueryable<Product> GetAllProducts();
 
         IQueryable<Product> Products { get; }
         IQueryable<Category> Categories { get; }

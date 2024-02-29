@@ -21,6 +21,7 @@
                     <th>Quantity</th>
                     <th>Category</th>
                     <th>Brand</th>
+                    <th>IsActive</th>
                     <th style="width: 200px;">Actions</th> 
             </thead>
             <tbody>
@@ -36,6 +37,7 @@
                         <td>
                             @(item?.Brand?.BrandName != null ? item.Brand.BrandName : "No Brand")
                         </td>
+                        <td>@item.IsActive</td>
                         <td>
                             @* <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-sm btn-primary">Details</a> *@
                             <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-sm btn-primary">Edit</a>

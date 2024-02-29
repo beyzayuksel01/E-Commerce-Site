@@ -46,6 +46,10 @@
                 <label>Pictures:</label>
                 <input asp-for="NewPictures" type="file" class="form-control" multiple />
             </div>
+            <div class="form-check">
+                <input asp-for="IsActive" class="form-check-input" />
+                <label class="form-check-label" asp-for="IsActive">IsActive</label>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

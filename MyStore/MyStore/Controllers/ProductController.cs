@@ -31,13 +31,13 @@ namespace MyStore.Controllers
         public async Task<IActionResult> Index() //degisiklik yapıldı
         {
 
-            var products = _productRepository.Products
-                .Include(c => c.Category)
-                .Include(c => c.Brand)
-                .Include(c => c.Pictures);
+            var products = _productRepository.GetAllProducts();
+
+            products = products.Include(p => p.Category)
+                              .Include(p => p.Brand)
+                              .Include(p => p.Pictures);
 
             return View(await products.ToListAsync());
-
 
 
         }
@@ -133,7 +133,8 @@ namespace MyStore.Controllers
                 CategoryId = product.CategoryId,
                 Price = product.Price,
                 Quantity = product.Quantity,
-                Tags = product.Tags
+                Tags = product.Tags,
+                IsActive = product.IsActive
             };
 
             ViewBag.Brands = new SelectList(_brandRepository.GetAllBrands(), "BrandId", "BrandName");
@@ -154,7 +155,9 @@ namespace MyStore.Controllers
 
 
             if (ModelState.IsValid)
-            {      
+            {
+                product.IsActive = productVM.IsActive;
+
                 bool result = _productRepository.UpdateProduct(productVM);
                 if (result)
                 {
@@ -188,6 +191,8 @@ namespace MyStore.Controllers
             {
                 return NotFound();
             }
+
+            productToDelete.IsActive = false;
 
             _productRepository.DeleteProduct(productToDelete);
 

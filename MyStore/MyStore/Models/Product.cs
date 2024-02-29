@@ -22,6 +22,7 @@ namespace MyStore.Models
 
         public int Quantity { get; set; }
         public bool InCart { get; set; }
+        public bool IsActive { get; set; } = true; //isactive 
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
 
