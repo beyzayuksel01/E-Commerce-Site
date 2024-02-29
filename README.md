@@ -11,7 +11,7 @@ yapabilir, sepetlerine ekleyebilir ve satın alma işlemlerini gerçekleştirebi
 geliştirme sürecini, kullanılan teknolojileri ve elde edilen sonuçları detaylı olarak açıklar.
 
 ## 2. Kullanılan Teknolojiler
-+ASP.NET Core MVC Framework: Web uygulamasının geliştirilmesinde kullanılmıştır.
++ ASP.NET Core MVC Framework: Web uygulamasının geliştirilmesinde kullanılmıştır.
 
 + Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
 
