@@ -17,6 +17,8 @@ geliştirme sürecini, kullanılan teknolojileri ve elde edilen sonuçları deta
 
 + Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
 
++ Microsoft SQL Server (MSSQL): Veritabanı yönetim sistemi olarak kullanılmıştır.
+
 + Identity Framework: Kullanıcı kimlik doğrulaması ve yetkilendirme için kullanılmıştır.
 
 + HTML, CSS, JavaScript: Frontend geliştirme için kullanılmıştır.
@@ -25,7 +27,7 @@ geliştirme sürecini, kullanılan teknolojileri ve elde edilen sonuçları deta
 
 + Bootstrap: Duyarlı ve kullanıcı dostu bir tasarım oluşturmak için kullanıldı.
 
-## 4. Temel İşlevler
+## 3. Temel İşlevler
 + Kullanıcılar, uygulama üzerinde ürünleri listeleyebilir, kategorilere göre filtreleyebilir ve 
 istedikleri ürüne yorum yapabilirler.
 
@@ -37,7 +39,7 @@ yönlendirilirler fakat satın alma kısmı geliştirme aşamasında.
 + Yöneticiler, ürünleri, kategorileri ve markaları yönetebilir, kullanıcıları yönetebilir ve yapılan 
 yorumlara cevap verebilir.
 
-## 6. Uygulama Mimarisi
+## 4. Uygulama Mimarisi
 + Model-View-Controller (MVC) Tasarım Deseni: Uygulama, veri tabanı modeli (Model), kullanıcı 
 arayüzü (View) ve işlemsel mantık (Controller) arasında ayrılmıştır.
 
@@ -47,7 +49,7 @@ kullanılmıştır.
 + Kimlik ve Yetkilendirme: ASP.NET Identity Framework kullanılarak kullanıcı kimlik doğrulaması ve 
 yetkilendirme sağlanmıştır.
 
-## 8. Geliştirme Süreci
+## 5. Geliştirme Süreci
 + İhtiyaç Analizi: Projenin gereksinimleri belirlenmiş, kullanıcı senaryoları oluşturulmuş ve veri modeli 
 tasarlanmıştır.
 
@@ -57,7 +59,7 @@ geliştirilmiş, kullanıcı arayüzü tasarlanmış ve işlemsel mantık uygula
 + Test ve Hata Ayıklama: Uygulama, kullanılabilirlik ve güvenilirlik açısından test edilmiş, performans 
 iyileştirmeleri yapılmıştır.
 
-## 10. Sonuç
+## 6. Sonuç
 Bu proje, temel bir e-ticaret uygulamasının geliştirilmesini kapsamaktadır. ASP.NET Core MVC 
 Framework ve diğer modern web teknolojilerinin kullanımıyla, kullanıcıların ürünleri görüntülemesi, 
 sepete eklemesi ve satın alma işlemlerini gerçekleştirmesi sağlanmaya çalışılmıştır. Uygulama, 
