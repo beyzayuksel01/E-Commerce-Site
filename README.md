@@ -17,6 +17,8 @@ geliştirme sürecini, kullanılan teknolojileri ve elde edilen sonuçları deta
 
 + Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
 
++ Microsoft SQL Server (MSSQL): Veritabanı yönetim sistemi olarak kullanılmıştır.
+
 + Identity Framework: Kullanıcı kimlik doğrulaması ve yetkilendirme için kullanılmıştır.
 
 + HTML, CSS, JavaScript: Frontend geliştirme için kullanılmıştır.
