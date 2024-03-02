@@ -1,6 +1,4 @@
 ﻿using MyStore.Repositories.Contract;
-using MyStore.Repositories.EFCore;
-using MyStore.Repositories.EFCore.Config;
 
 namespace MyStore.Repositories.EFCore.Config
 {
